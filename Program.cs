@@ -70,6 +70,6 @@ Console.WriteLine("LINQ:");
 int linqHaromEvnelIdosebb = dogs.Count(d => d.Age >= 3);
 Console.WriteLine(linqHaromEvnelIdosebb);
 
-int linqSzuka = dogs.Count(d => d.Sex == false);
+int linqSzuka = dogs.Count(d => !d.Sex);
 Console.WriteLine(linqSzuka);
 #endregion
